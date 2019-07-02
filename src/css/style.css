@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+.bg-primary{
+    background-color: rgb(135, 33, 46);
+  }
+
+.navbar{
+    border-radius:0px;
+    height:20%;
+    margin-bottom: 0px;
+}
+
+.navbar-nav>li>a {
+     padding-top: 0px; 
+     padding-bottom: 0px; 
+}
+.nav-item{
+    font-family: Helvetica;
+    font-size:20pt;
+    color:white;
+}
+
+
+/* Customized*/
+.nav-item-sidebar{
+    font-family: Helvetica;
+    /* font-size:16pt; */
+    color:white;
+}
+.bg-primary-navbar-custom{
+    background-color: rgb(135, 33, 46) !important;
+  }
+
+li.list-group-item-action{
+    background-color:#e7e7e7 !important;
+}
+a.nav-link{
+    color:black;
+}
+.nav-link:focus, .nav-link:hover{
+    color:black;
+}
+.bg-light-sidebar{
+    background-color:#e7e7e7 !important;
+}
+
+ body {
+    overflow-x: hidden;
+  }
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+  }
+
+  #sidebar-wrapper .list-group {
+    width: 12rem;
+}
+
+.list-group-item {
+  padding: .25rem 1.05rem;
+ font-size:12px;
+}
+  
+/* css entries for home component */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  border: 1px solid black;
+  margin-top:1%;
+  margin-left:1%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #6495ED;}
+tr:nth-child(odd) {background-color: #e9f0fa;}
